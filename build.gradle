@@ -10,8 +10,8 @@ node {
 }
 
 compileJava {
-    sourceCompatibility = JavaVersion.VERSION_19 // Set the Java version you need
-    targetCompatibility = JavaVersion.VERSION_19
+    sourceCompatibility = JavaVersion.VERSION_19.0.1 // Set the Java version you need
+    targetCompatibility = JavaVersion.VERSION_19.0.1
 }
 
 //declare a build task
